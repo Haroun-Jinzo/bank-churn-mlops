@@ -199,14 +199,14 @@ def predict_cached(features_hash: str, features_json: str):
         "risk_level": risk
     }
 
-@app.post("/predict", response_model=PredictionResponse)
-def predict(features: CustomerFeatures):
-    features_dict = features.dict()
-    features_hash = hash_features(features_dict)
-    features_json = json.dumps(features_dict)
+#@app.post("/predict", response_model=PredictionResponse)
+#def predict(features: CustomerFeatures):
+ #   features_dict = features.dict()
+  #  features_hash = hash_features(features_dict)
+   # features_json = json.dumps(features_dict)
     
     # Utilise le cache si disponible
-    result = predict_cached(features_hash, features_json)
+    #result = predict_cached(features_hash, features_json)
     
-    logger.info(f"Prediction - Hash: {features_hash[:8]}")
-    return result
+    #logger.info(f"Prediction - Hash: {features_hash[:8]}")
+    #return result
