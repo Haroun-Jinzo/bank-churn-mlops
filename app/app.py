@@ -15,7 +15,7 @@ st.set_page_config(
 # ⚠️ UPDATE THIS URL TO YOUR AZURE API ⚠️
 # Example: "https://bank-churn-api.azurewebsites.net"
 # ------------------------------------------------------------------------------
-API_URL = "https://bank-churn.redpond-3c4969cd.spaincentral.azurecontainerapps.io/" 
+API_URL = "https://bank-churn.redpond-3c4969cd.spaincentral.azurecontainerapps.io" 
 
 # Check if the user forgot to update the URL
 if "YOUR-APP-NAME" in API_URL:
