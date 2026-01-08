@@ -25,3 +25,5 @@ opencensus-ext-azure==1.1.9
 opencensus-ext-requests
 
 streamlit
+matplotlib
+seaborn
